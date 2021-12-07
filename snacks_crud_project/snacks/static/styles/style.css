@@ -1,0 +1,160 @@
+body {
+background-color: whitesmoke;    
+}
+#navbar {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fd969b;
+
+}
+
+#brand{
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    color: #a34845;
+}
+
+#brand img {
+    width: 70px;
+}
+
+#nav-links {
+    display: flex;
+    width: 100px;
+
+}
+
+#nav-links img {
+    width: 70px;
+}
+#content a {
+    text-decoration: none;
+    color: gray;
+}
+#content h1:hover {
+    background-color: #fd969b;
+    color: whitesmoke;
+}
+#content h1 {
+    padding: 20px;
+    transition: 500ms;
+    margin: 0px;
+}
+#content {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border: 1px dotted gray ;
+}
+
+#content button {
+    width: 100%;
+    height: 50px;
+    background-color: #fd969b;
+    border: none;
+    color : whitesmoke;
+    font-size: 20px;
+    transition :500ms
+}
+
+#content button:hover {
+    background-color: #fc7a81;
+
+}
+#intro{
+    text-align: center;
+}
+
+#intro h2{
+    font-size: 30px;
+    color: #642e31
+}
+
+#create-form{
+    width:75%;
+    margin: auto;
+    /* text-align: center; */
+
+}
+#create-form h1{
+    text-align: center;
+    color: #642e31;
+}
+label{
+    display: block;
+    padding-bottom: 10px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom:1px solid palevioletred;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    /* background-color: #f8f8f8; */
+    resize: none;
+  }
+
+input[type=submit]{
+    width: 20%;
+    height: 50px;
+    background-color: #fd969b;
+    border: none;
+    color : whitesmoke;
+    font-size: 20px;
+    transition: 500ms;
+}
+input[type=submit]:hover {
+    background-color: #fc7a81;
+
+}
+
+#update{
+    width: 70%;
+    margin: auto;
+}
+
+#update h1{
+    text-align: center;
+    color: #642e31;
+}
+
+#detail{
+    width: 60%;
+    margin: auto;
+}
+
+#detail button{
+    
+}
+
+#detail a{
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 25%;
+    height: 50px;
+    background-color: #fd969b;
+    border: none;
+    color : whitesmoke;
+    font-size: 20px;
+    transition: 500ms;
+}
+#detail span{
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    color: #642e31;
+    padding: 30px;
+}

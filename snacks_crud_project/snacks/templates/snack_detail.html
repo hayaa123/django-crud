@@ -1,0 +1,14 @@
+{% extends "_base.html" %}
+
+{% block title %}{{snack.title}}{% endblock %}
+
+{% block content %}
+<div id="detail">
+    <span>More about {{snack.title}}</span>
+    <h1>{{snack.title}}</h1>
+    <p>{{snack.description}}</p>
+    <a href = "/{{snack.id}}/delete">Delete</a>
+    <a href = "/{{snack.id}}/update">Update</a>
+</div>
+
+{% endblock %}
